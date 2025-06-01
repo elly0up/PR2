@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПР №2. Заявка на стажування Приймачук Нелі</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">Заявка на стажування</div>
+        <form>
+            <label>Прізвище</label>
+            <input type="text" placeholder="Введіть Ваше прізвище">
+
+            <label>Ім'я</label>
+            <input type="text" placeholder="Введіть Ваше ім'я">
+
+            <label>Електронна пошта</label>
+            <input type="email" placeholder="youremail@gmail.com">
+
+            <label>Курс</label>
+            <select>
+                <option>Бакалавр (1-й курс)</option>
+                <option>Бакалавр (2-й курс)</option>
+                <option>Бакалавр (3-й курс)</option>
+                <option>Бакалавр (4-й курс)</option>
+                <option>Магістр (1-й курс)</option>
+                <option>Магістр (2-й курс)</option>
+            </select>
+
+            <label>Середній бал (0-100)</label>
+            <input type="number" min="0" max="100">
+
+            <label>Напрямок стажування</label>
+            <select>
+                <option>.NET</option>
+                <option>JS</option>
+                <option>Java</option>
+                <option>Python</option>
+                <option>C/C++</option>
+            </select>
+
+            <label>Скільки часу на тиждень готові приділити стажуванню?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="hours"> 2-4 год</label>
+                <label><input type="radio" name="hours"> 4-8 год</label>
+                <label><input type="radio" name="hours"> 8-12 год</label>
+                <label><input type="radio" name="hours"> 12-16 год</label>
+                <label><input type="radio" name="hours"> 16-20 год</label>
+                <label><input type="radio" name="hours"> Понад 20 год</label>
+            </div>
+
+            <label>Маю досвід з</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> JS</label>
+                <label><input type="checkbox"> HTML</label>
+                <label><input type="checkbox"> CSS</label>
+                <label><input type="checkbox"> C/C++</label>
+                <label><input type="checkbox"> Java</label>
+                <label><input type="checkbox"> C#</label>
+                <label><input type="checkbox"> SQL</label>
+            </div>
+
+            <label>Рівень англійської</label>
+            <select>
+                <option>Beginner</option>
+                <option>Pre-Intermediate</option>
+                <option>Intermediate</option>
+                <option>Upper-Intermediate</option>
+                <option>Fluent</option>
+            </select>
+
+            <label>Перелічіть свої найважливіші досягнення або внески за останній рік</label>
+            <textarea rows="4"></textarea>
+
+            <button type="submit">Надіслати</button>
+        </form>
+</body>
+</html>
